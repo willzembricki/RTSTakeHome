@@ -10,7 +10,7 @@ def above_below(list,val)
         blw = blw + 1 
       end   
     end    
-return { above: abv,below: blw}
+    return { "above": abv,"below": blw}
 end
 
 print above_below([1,2,3,4,5,6], 3)
